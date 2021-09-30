@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   turing:
   - apiVersion: v1
-    created: "2021-09-29T12:39:55.43274938Z"
+    created: "2021-09-30T06:38:57.297458929Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.9.8
     description: 'Turing: ML Experimentation System'
-    digest: 1f2e02b41e808262767f80a09ad787827d5281bd52ab013c85bda480a10befcf
+    digest: 680b19a9a461282d7424ac1290d7f1aad1cfbefe232c068dcd34158b987b61ef
     name: turing
     urls:
     - https://turing-ml.github.io/charts/turing-0.1.5.tgz
     version: 0.1.5
-generated: "2021-09-29T12:39:55.427854608Z"
+generated: "2021-09-30T06:38:57.293375841Z"
