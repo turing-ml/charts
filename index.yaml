@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  merlin:
+  - apiVersion: v1
+    created: "2021-11-08T14:59:11.443522+08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 7.0.0
+    - alias: mlflow
+      name: mlflow
+      repository: file://../mlflow
+      version: 0.4.1
+    description: Kubernetes-friendly ML model management, deployment, and serving.
+    digest: 0d7cc8145b8bde4bd8d1f5cb9c96f11fd62b4dd6754755b2baef9851c561344d
+    name: merlin
+    urls:
+    - https://turing-ml.github.io/charts/merlin-0.7.0.tgz
+    version: 0.7.0
   mlp:
   - apiVersion: v1
     created: "2021-11-08T06:50:57.887358875Z"
@@ -76,4 +93,4 @@ entries:
     urls:
     - https://turing-ml.github.io/charts/turing-init-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-08T06:50:57.883082146Z"
+generated: "2021-11-08T14:59:11.43549+08:00"
