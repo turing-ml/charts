@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   mlp:
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.874469203Z"
+    created: "2022-01-17T04:30:46.937535969Z"
     dependencies:
     - name: postgresql
       repository: https://charts.helm.sh/stable
       version: 7.0.0
     description: MLP API
-    digest: 151a6369c147dfa868e93015024e3963771982a514de2bb42cf4162838cec267
+    digest: 44b0c262bb6c6513f2072ed6853b787951c46c933c2d113d7080ad76fc466b8d
     name: mlp
     urls:
     - https://turing-ml.github.io/charts/mlp-1.0.0.tgz
@@ -16,7 +16,7 @@ entries:
   turing:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-01-17T01:16:16.969297214Z"
+    created: "2022-01-17T04:30:47.029899908Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
     version: 0.2.4-dev0.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-01-17T01:16:16.952915591Z"
+    created: "2022-01-17T04:30:47.015665456Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -62,7 +62,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-01-17T01:16:16.936975872Z"
+    created: "2022-01-17T04:30:46.99900106Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -85,7 +85,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-01-17T01:16:16.921466156Z"
+    created: "2022-01-17T04:30:46.984129196Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -107,7 +107,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.905178633Z"
+    created: "2022-01-17T04:30:46.966965092Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -129,7 +129,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.888862711Z"
+    created: "2022-01-17T04:30:46.950923307Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -141,7 +141,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.885662787Z"
+    created: "2022-01-17T04:30:46.947635048Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -153,7 +153,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.882439963Z"
+    created: "2022-01-17T04:30:46.943698579Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -165,7 +165,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
-    created: "2022-01-17T01:16:16.87938544Z"
+    created: "2022-01-17T04:30:46.940664625Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -178,7 +178,7 @@ entries:
     version: 0.1.5
   turing-init:
   - apiVersion: v2
-    created: "2022-01-17T01:16:16.975488661Z"
+    created: "2022-01-17T04:30:47.034062882Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -191,7 +191,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-init-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
-    created: "2022-01-17T01:16:16.971620532Z"
+    created: "2022-01-17T04:30:47.032050347Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -203,4 +203,4 @@ entries:
     urls:
     - https://turing-ml.github.io/charts/turing-init-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-17T01:16:16.871729183Z"
+generated: "2022-01-17T04:30:46.934506215Z"
