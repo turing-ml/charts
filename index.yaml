@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mlp:
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.460765862Z"
+    created: "2022-06-13T08:17:56.33303247Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -15,7 +15,7 @@ entries:
     - https://turing-ml.github.io/charts/mlp-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.457433122Z"
+    created: "2022-06-13T08:17:56.32952481Z"
     dependencies:
     - name: postgresql
       repository: https://charts.helm.sh/stable
@@ -29,7 +29,32 @@ entries:
   turing:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.545729825Z"
+    created: "2022-06-13T08:17:56.447331694Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - db
+      version: 10.16.2
+    - name: mlp
+      repository: file://subcharts/mlp
+      tags:
+      - mlp
+      version: 1.0.1
+    - name: merlin
+      repository: file://subcharts/merlin
+      tags:
+      - mlp
+      version: 0.7.1
+    description: 'Turing: ML Experimentation System'
+    digest: c2e9c872888305d8aa945d87be98f7d1c03474299a76a1b79d97f4c9db22d642
+    name: turing
+    urls:
+    - https://turing-ml.github.io/charts/turing-0.2.11-dev0.1.tgz
+    version: 0.2.11-dev0.1
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2022-06-13T08:17:56.417908849Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -54,7 +79,7 @@ entries:
     version: 0.2.10
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.727324643Z"
+    created: "2022-06-13T08:17:56.631384005Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -79,7 +104,7 @@ entries:
     version: 0.2.9
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.706536071Z"
+    created: "2022-06-13T08:17:56.609263594Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -104,7 +129,7 @@ entries:
     version: 0.2.9-dev0.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.686561833Z"
+    created: "2022-06-13T08:17:56.58926698Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -129,7 +154,7 @@ entries:
     version: 0.2.8
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.667134918Z"
+    created: "2022-06-13T08:17:56.570282812Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -154,7 +179,7 @@ entries:
     version: 0.2.7
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.646113536Z"
+    created: "2022-06-13T08:17:56.550429805Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -179,7 +204,7 @@ entries:
     version: 0.2.6
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.626625019Z"
+    created: "2022-06-13T08:17:56.530067275Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -202,7 +227,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.605383728Z"
+    created: "2022-06-13T08:17:56.510642887Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -225,7 +250,7 @@ entries:
     version: 0.2.4-dev0.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.585077176Z"
+    created: "2022-06-13T08:17:56.489648527Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -248,7 +273,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.565821068Z"
+    created: "2022-06-13T08:17:56.468107443Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -271,7 +296,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-06-10T05:41:30.519309617Z"
+    created: "2022-06-13T08:17:56.391139426Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -293,7 +318,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.498286935Z"
+    created: "2022-06-13T08:17:56.367982567Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -315,7 +340,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.478110889Z"
+    created: "2022-06-13T08:17:56.35009705Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -327,7 +352,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.47408422Z"
+    created: "2022-06-13T08:17:56.345637446Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -339,7 +364,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.468523187Z"
+    created: "2022-06-13T08:17:56.341498857Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -351,7 +376,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
-    created: "2022-06-10T05:41:30.464697026Z"
+    created: "2022-06-13T08:17:56.3380598Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -364,20 +389,20 @@ entries:
     version: 0.1.5
   turing-init:
   - apiVersion: v2
-    created: "2022-06-10T05:41:30.738201499Z"
+    created: "2022-06-13T08:17:56.642774025Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
       version: 1.1.7
     description: A Helm chart for Kubernetes
-    digest: 56c983505153d42c13d728647cb9bc703e56c1de8c41b045db14d3bcdd0bd644
+    digest: 909d84884190a7f4f65cfabf5bb5eb04d0572795dacd98f005df65b1c57d084c
     name: turing-init
     type: application
     urls:
     - https://turing-ml.github.io/charts/turing-init-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2022-06-10T05:41:30.733196689Z"
+    created: "2022-06-13T08:17:56.637828199Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -390,7 +415,7 @@ entries:
     - https://turing-ml.github.io/charts/turing-init-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
-    created: "2022-06-10T05:41:30.730321068Z"
+    created: "2022-06-13T08:17:56.634333539Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -402,4 +427,4 @@ entries:
     urls:
     - https://turing-ml.github.io/charts/turing-init-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-10T05:41:30.45238351Z"
+generated: "2022-06-13T08:17:56.326276261Z"
